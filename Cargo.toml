@@ -1,8 +1,5 @@
-[workspace]
-resolver = "2"
-members = ["crates/*"]
-
-[workspace.package]
+[package]
+name="s"
 version = "0.1.0"
 edition = "2021"
 authors = ["RSUU <rsuuyu@gmail.com>"]
@@ -16,7 +13,7 @@ categories = []
 exclude = []
 publish = false
 
-[workspace.dependencies]
+[dependencies]
 anyhow = "1.0.72"
 crossterm = "0.26.1"
 dirs-next = "2.0.0"
@@ -30,6 +27,7 @@ rayon = "1.7.0"
 regex = "1.9.1"
 syntect = "5.1.0"
 sysinfo = "0.29.7"
+tempfile = "3.7.0"
 termimad = "0.23.1"
 threadpool = "1.8.1"
 tui = "0.19.0"
